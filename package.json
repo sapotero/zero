@@ -2,28 +2,37 @@
   "name": "zero",
   "version": "0.0.1",
   "description": "This app is so cool.",
-  "main": "app.js",
+  "main": "web.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  
   "repository": {
     "type": "git",
-    "url": "https://github.com/sapotero/zero"
+    "url": "https://github.com/sapotero/zero.git"
   },
+  
   "keywords": [
-    "Anonymous",
-    "chat"
+    "chat",
+    "private",
+    "Anonymous"
   ],
+  
   "author": "sapotero",
   "license": "MIT",
   
+  "bugs": {
+    "url": "https://github.com/sapotero/zero/issues"
+  },
+
   "scripts": {
     "start": "node app.js"
   },
   
   "dependencies": {
     "express": "3.5.0",
-    "jade": "^1.3.0"
+    "jade": "*"
   },
 
   "engines": {

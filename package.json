@@ -1,21 +1,31 @@
 {
-  "name": "nehvat",
-  "version": "0.0.0",
-  "description": "",
-  "main": "web.js",
+  "name": "zero",
+  "version": "0.0.1",
+  "description": "This app is so cool.",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@heroku.com:cryptic-meadow-4807.git"
+    "url": "https://github.com/sapotero/zero"
   },
+  "keywords": [
+    "Anonymous",
+    "chat"
+  ],
   "author": "sapotero",
   "license": "MIT",
-  "dependencies": {
-    "logfmt": "^0.21.0",
-    "express": "^3.5.0"
+  
+  "scripts": {
+    "start": "node app.js"
   },
+  
+  "dependencies": {
+    "express": "3.5.0",
+    "jade": "^1.3.0"
+  },
+
   "engines": {
     "node": "0.10.x"
   }
